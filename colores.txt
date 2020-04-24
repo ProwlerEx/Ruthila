@@ -1,0 +1,18 @@
+rosado
+f31440
+
+negro 
+000000
+
+corona
+amarillo claro
+f2bd61
+amarillo fuerte
+ef9d20
+
+rosado  cremita
+ed6c9e
+
+
+ruby
+dc0077
