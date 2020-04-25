@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="esp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ruthila</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Wire+One|Raleway:300' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="img/logo web.png">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="js/all.min.js"></script>
   
 </head>
 <body>
@@ -14,7 +16,7 @@
 
 <section>
     <header>
-        <img src="img/title-web.png" alt="logo" class="logo">
+        <img src="img/logo sin fondoooo.png" alt="logo" class="logo">
         <input id="toggler" class="toggler" type="checkbox" >
         <label for="toggler" class="burger">
             <span><i class="fas fa-bars "></i></span>
@@ -29,10 +31,95 @@
             </ul>
         </nav>
     </header>
+   <div class="portada">
+       <h1>Listing de pestañas Profesional a domicilio</h1>
+   </div>
 </section>
 
-<section>
+<section class="service">
+
+    <div class="band">
+        <div class="item-1">
+            <a href="#" class="card">
+                <div class="thumb" style="background-image: url(https://img.grouponcdn.com/deal/3qA2pQD6ca49yWDWJ6e59mQR45ic/3q-700x420/v1/c700x420.jpg);"></div>
+                <article>
+                    <h1>Lifting de Pestañas</h1>
+                    <span>Rosa Soledad Lastiri</span>
+                </article>
+            </a>
+        </div>
+        <div class="item-2">
+            <a href="https://webdesign.tutsplus.com/articles/how-to-conduct-remote-usability-testing--cms-27045" class="card">
+              <div class="thumb" style="background-image: url(https://www.materialestetica.com/blog/wp-content/uploads/2018/05/depilacion-cera.jpg);"></div>
+              <article>
+                <h1>Depilacion con Cera</h1>
+                <span>Harry Brignull</span>
+              </article>
+            </a>
+          </div>
+          <div class="item-3">
+            <a href="https://design.tutsplus.com/articles/envato-tuts-community-challenge-created-by-you-july-edition--cms-26724" class="card">
+              <div class="thumb" style="background-image: url(https://assets.afcdn.com/story/20190416/2001413_w980h638c1cx1050cy714.jpg);"></div>
+              <article>
+                <h1>Depilacion con Cejas</h1>
+                <p>Un tratamiento probado y demostrado que ofrecen muchos salones de belleza, la depilación de cejas con cera está disponible a menudo sin cita previa, por lo que tener unas cejas bonitas nunca antes había sido tan fácil. La cera es una manera rápida, suave y duradera de definir la forma de sus cejas. </p>
+                <span>Melody Nieves</span>
+              </article>
+            </a>
+          </div>
+          <div class="item-4">
+            <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" class="card">
+              <div class="thumb" style="background-image: url(https://modatoponline.com/wp-content/uploads/2018/09/04.jpg);"></div>
+              <article>
+                <h1>corte de pelos mujer</h1>
+                <p>We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down.</p>
+                <span>Kezz Bracey</span>
+              </article>
+            </a>
+          </div>
+          <div class="item-5">
+            <a href="https://design.tutsplus.com/tutorials/stranger-things-inspired-text-effect--cms-27139" class="card">
+              <div class="thumb" style="background-image: url(https://www.mujerde10.com/wp-content/uploads/2018/02/caramelo2-1.jpg);"></div>
+              <article>
+                <h1>
+                  pinturas para pelo
+                  </h1>
+                <span>Rose</span>
+              </article>
+            </a>
+          </div>
+          <div class="item-6">
+            <a href="https://photography.tutsplus.com/articles/5-inspirational-business-portraits-and-how-to-make-your-own--cms-27338" class="card">
+              <div class="thumb" style="background-image: url(https://d26lpennugtm8s.cloudfront.net/stores/463/393/products/c1013c261db8c2b474d781574465d9751-56c8c589dc58cb704615131902260152-1024-1024.jpg);"></div>
+              <article>
+                <h1>5 Inspirational Business Portraits and How to Make Your Own</h1>
+        
+                <span>Marie Gardiner</span>
+              </article>
+            </a>
+          </div>
+          <div class="item-7">
+            <a href="https://webdesign.tutsplus.com/articles/notes-from-behind-the-firewall-the-state-of-web-design-in-china--cms-22281" class="card">
+              <div class="thumb" style="background-image: url(https://i.ibb.co/njnzqzj/d61ae6693b649b22144edfa2233c56eb.jpg);"></div>
+              <article>
+                <h1>Notes From Behind the Firewall: The State of Web Design in China</h1>
+                <span>Kendra Schaefer</span>
+              </article>
+            </a>
+          </div>
+    </div>
+    
 
 </section>
 </body>
 </html>
+
+
+
+
+<script type="text/javascript">
+    window.addEventListener("scroll",function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky" , window.scrollY > 0);
+    });
+</script>
